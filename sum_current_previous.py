@@ -12,9 +12,3 @@ for i in range(10):
 # Showing the result 
     print("Current Number", i, "Previous number", previous_num, "Sum", previous_num + i) 
     previous_num = i 
-
-
-   
-
-
-    
