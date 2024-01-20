@@ -4,8 +4,13 @@
 # Pseudocode 
 
 # Creating a variable to start the loop from 0 
+previous_num = 0 
+
 # Creating loop 
-# Showing the result 
+for i in range(10): # Creating loop 
+    print("Current Number", previous_num + i, "Previous number", previous_num + i, "Sum", i + i) # Showing the result 
+
+
 
    
 
