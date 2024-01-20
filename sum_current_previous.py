@@ -7,9 +7,11 @@
 previous_num = 0 
 
 # Creating loop 
-for i in range(10): # Creating loop 
-    print("Current Number", previous_num + i, "Previous number", previous_num + i, "Sum", i + i) # Showing the result 
+for i in range(10): 
 
+# Showing the result 
+    print("Current Number", i, "Previous number", previous_num, "Sum", previous_num + i) 
+    previous_num = i 
 
 
    
